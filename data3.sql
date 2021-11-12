@@ -4,6 +4,6 @@ Please write a query with country name, country population, continent, name of c
 
 select continent, name, population, capital
 from country
-where continent in ("Oceania", "Antarctica", "South America");
+where continent in ('Oceania', 'Antarctica', 'South America');
 
 /* Can't find the names of the capitals in any table */
